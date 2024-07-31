@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+    />
+    <style>
+      /* Style to position the chatbot iframe in the top-right corner */
+      .chatbot-container {
+          position: fixed;
+          top: 200px; /* Distance from the top of the page */
+          right: 160px; /* Distance from the right edge of the page */
+          z-index: 1000; /* Ensure it appears above other content */
+      }
+
+      /* Style to give the iframe a shadow and rounded corners */
+      iframe {
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          border-radius: 8px;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="resturent-website">
+      <header class="frame-parent">
+        <div class="dhaba-parent">
+          <h1 class="dhaba">Dhaba</h1>
+          <div class="menu-options">
+            <div class="frame-group">
+              <div class="frame-container">
+                <div class="home-parent">
+                  <a class="home">Home</a>
+                  <a class="menu">Menu</a>
+                </div>
+                <div class="frame-wrapper">
+                  <img class="frame-child" alt="" src="Group 2.png" />
+                </div>
+              </div>
+              <div class="offers-services">
+                <a class="services">Services</a>
+                <div class="offers-services-inner">
+                  <img class="frame-item" alt="" src="Group 1.png" />
+                </div>
+              </div>
+              <a class="offers">Offers</a>
+            </div>
+          </div>
+        </div>
+        <div class="ellipse-parent">
+          <div class="frame-inner"></div>
+          <a class="a">8</a>
+        </div>
+        <div class="icon-search-parent">
+          <img
+            class="icon-search"
+            loading="lazy"
+            alt=""
+            src="icon_search.png"
+          />
+
+          <div class="fi-rr-shopping-bag-wrapper">
+            <img
+              class="fi-rr-shopping-bag-icon"
+              loading="lazy"
+              alt=""
+              src="fi-rr-shopping-bag.png"
+            />
+          </div>
+          <div class="rectangle-parent">
+            <div class="rectangle-div"></div>
+            <img
+              class="fi-rr-phone-call-icon"
+              loading="lazy"
+              alt=""
+              src="fi-rr-phone-call.png"
+            />
+          </div>
+        </div>
+      </header>
+      <img
+        class="nicepng-plate-of-food-png-5460-icon"
+        alt=""
+        src="Rectangle 9.png"
+      />
+
+      <img class="pngwing-1-icon" alt="" src="Rectangle 9.png" />
+
+      <section class="frame-section">
+        <div class="banner-content-parent">
+          <div class="banner-content">
+            <div class="banner-title">
+              <div class="wrapper-rectangle-24">
+                <img
+                  class="wrapper-rectangle-24-child"
+                  alt=""
+                  src="Rectangle 24.png"
+                />
+              </div>
+              <div class="hot-spicy-food">Hot spicy Food 🌶</div>
+            </div>
+          </div>
+          <div class="description-content-parent">
+            <div class="description-content">
+              <h1 class="dive-into-delights-container">
+                <span>Dive into Delights Of Delectable </span>
+                <span class="food">Food</span>
+              </h1>
+              <div class="intersect-parent">
+                <img
+                  class="intersect-icon"
+                  alt=""
+                  src="Intersect.png"
+                />
+
+                <div class="frame-child1"></div>
+              </div>
+            </div>
+            <div class="where-each-plate-weaves-a-stor-wrapper">
+              <div class="where-each-plate">
+                Where Each Plate Weaves a Story of Culinary Mastery and
+                Passionate Craftsmanship
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-div">
+          <button class="rectangle-group">
+            <div class="frame-child2"></div>
+            <div class="order-now">Order Now</div>
+          </button>
+          <div class="frame-wrapper1">
+            <div class="chowmein-container-parent">
+              <div class="chowmein-container">
+                <div class="chowmein-container-child"></div>
+                <img
+                  class="mask-group-icon"
+                  loading="lazy"
+                  alt=""
+                  src="Dosa.png"
+                />
+
+                <div class="chowmein-details">
+                  <div class="chowmein">Rava Dosa</div>
+                  <div class="fi-sr-star-parent">
+                    <img
+                      class="fi-sr-star-icon"
+                      loading="lazy"
+                      alt=""
+                      src="fi-sr-star.png"
+                    />
+
+                    <img
+                      class="fi-sr-star-icon1"
+                      alt=""
+                      src="fi-sr-star-1.png"
+                    />
+
+                    <img
+                      class="fi-sr-star-icon2"
+                      alt=""
+                      src="fi-sr-star-2.png"
+                    />
+
+                    <img
+                      class="fi-br-star-icon"
+                      alt=""
+                      src="fi-br-star.png"
+                    />
+
+                    <img
+                      class="fi-br-star-icon1"
+                      alt=""
+                      src="fi-br-star-1.png"
+                    />
+                  </div>
+                  <div class="div">
+                    <span>₹ </span>
+                    <span class="span">129.00</span>
+                  </div>
+                </div>
+              </div>
+              <div class="chowmein-container1">
+                <div class="chowmein-container-item"></div>
+                <img
+                  class="mask-group-icon1"
+                  alt=""
+                  src="pizza.png"
+                />
+
+                <div class="vegetarian-salad-parent">
+                  <div class="vegetarian-salad">Pizza</div>
+                  <div class="frame-parent1">
+                    <div class="fi-sr-star-group">
+                      <img
+                        class="fi-sr-star-icon3"
+                        alt=""
+                        src="fi-sr-star-3.png"
+                      />
+
+                      <img
+                        class="fi-sr-star-icon4"
+                        alt=""
+                        src="fi-sr-star.png"
+                      />
+                    </div>
+                    <div class="fi-sr-star-container">
+                      <img
+                        class="fi-sr-star-icon5"
+                        alt=""
+                        src="fi-sr-star.png"
+                      />
+
+                      <img
+                        class="fi-sr-star-icon6"
+                        alt=""
+                        src="fi-sr-star.png"
+                      />
+                    </div>
+                    <div class="fi-sr-star-parent1">
+                      <img
+                        class="fi-sr-star-icon7"
+                        alt=""
+                        src="fi-sr-star.png"
+                      />
+
+                      <img
+                        class="fi-sr-star-icon8"
+                        alt=""
+                        src="fi-sr-star.png"
+                      />
+                    </div>
+                    <div class="fi-sr-star-parent2">
+                      <img
+                        class="fi-sr-star-icon9"
+                        alt=""
+                        src="fi-sr-star-2.png"
+                      />
+
+                      <img
+                        class="fi-sr-star-icon10"
+                        alt=""
+                        src="fi-sr-star-1.png"
+                      />
+                    </div>
+                    <div class="fi-br-star-parent">
+                      <img
+                        class="fi-br-star-icon2"
+                        alt=""
+                        src="fi-br-star-1.png"
+                      />
+
+                      <img
+                        class="fi-br-star-icon3"
+                        alt=""
+                        src="fi-br-star.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="wrapper">
+                    <div class="div1">
+                      <span>₹ </span>
+                      <span class="span1">129.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-wrapper">
+            <div class="contact">Contact</div>
+          </div>
+        </div>
+      </section>
+      <img
+        class="food-plate-healthy-free-photo-icon"
+        alt=""
+        src="./public/139184foodplatehealthyfreephoto-1@2x.png"
+      />
+
+      <div class="special-dishes-container-wrapper">
+        <div class="special-dishes-container">
+          <div class="special-dishes-heading-wrapper">
+            <div class="special-dishes-heading">
+              <b class="special-dishes">Special Dishes</b>
+              <h1 class="standout-dishes-from">
+                Standout Dishes From Our Menu
+              </h1>
+            </div>
+          </div>
+          <div class="dishes-grid">
+            <div class="frame-parent2">
+              <div class="frame-wrapper2">
+                <div class="frame-parent3">
+                  <div class="frame-wrapper3">
+                    <div class="frame-parent4">
+                      <div class="rectangle-container">
+                        <div class="frame-child3"></div>
+                        <img
+                          class="fi-sr-heart-icon"
+                          loading="lazy"
+                          alt=""
+                          src="fi-sr-heart.png"
+                        />
+                      </div>
+                      <img
+                        class="fattoush-salad-icon"
+                        loading="lazy"
+                        alt=""
+                        src="Fattoush salad.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="chole-bhature">Chole Bhature</div>
+                  <div class="description-of-the-item-parent">
+                    <div class="description-of-the">
+                      Description of the item
+                    </div>
+                    <div class="price-value-wrapper-parent">
+                      <div class="price-value-wrapper">
+                        <div class="div2">
+                          <span>₹ </span>
+                          <span class="span2">37.00</span>
+                        </div>
+                      </div>
+                      <div class="rating-wrapper">
+                        <div class="rating-icon">
+                          <img
+                            class="fi-sr-star-icon11"
+                            alt=""
+                            src="fi-sr-star-1.png"
+                          />
+                        </div>
+                        <div class="div3">4.9</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rectangle-parent1">
+                <div class="frame-child4"></div>
+                <div class="wrapper-egg-salad-wrapper">
+                  <div class="wrapper-egg-salad">
+                    <img
+                      class="egg-salad-icon"
+                      loading="lazy"
+                      alt=""
+                      src="Egg salad.png"
+                    />
+                  </div>
+                </div>
+                <div class="samose-parent">
+                  <div class="samose">Samose</div>
+                  <div class="description-of-the-item-group">
+                    <div class="description-of-the1">
+                      Description of the item
+                    </div>
+                    <div class="frame-parent5">
+                      <div class="container">
+                        <div class="div4">
+                          <span>₹ </span>
+                          <span class="span3">24.00</span>
+                        </div>
+                      </div>
+                      <div class="frame-parent6">
+                        <div class="fi-sr-star-wrapper">
+                          <img
+                            class="fi-sr-star-icon12"
+                            alt=""
+                            src="fi-sr-star-1.png"
+                          />
+                        </div>
+                        <div class="chapter-midlife">4.5</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rectangle-parent2">
+                <div class="frame-child5"></div>
+                <div class="rectangle-parent3">
+                  <div class="frame-child6"></div>
+                  <div class="wrapper-egg-salad-container">
+                    <div class="wrapper-egg-salad1">
+                      <img
+                        class="egg-salad-icon1"
+                        alt=""
+                        src="pizza.png"
+                      />
+                    </div>
+                  </div>
+                  <div class="pizza-parent">
+                    <div class="pizza">Pizza</div>
+                    <div class="description-of-the-item-container">
+                      <div class="description-of-the2">
+                        Description of the item
+                      </div>
+                      <div class="frame-parent7">
+                        <div class="frame">
+                          <div class="div5">
+                            <span>₹ </span>
+                            <span class="span4">129.00</span>
+                          </div>
+                        </div>
+                        <div class="frame-parent8">
+                          <div class="fi-sr-star-frame">
+                            <img
+                              class="fi-sr-star-icon13"
+                              alt=""
+                              src="fi-sr-star-1.png"
+                            />
+                          </div>
+                          <div class="div6">4.5</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rectangle-parent4">
+                <div class="frame-child7"></div>
+                <div class="wrapper-egg-salad-frame">
+                  <div class="wrapper-egg-salad2">
+                    <img
+                      class="egg-salad-icon2"
+                      alt=""
+                      src="lassi.png"
+                    />
+                  </div>
+                </div>
+                <div class="mango-lassi-parent">
+                  <div class="mango-lassi">Mango lassi</div>
+                  <div class="description-of-the-item-parent1">
+                    <div class="description-of-the3">
+                      Description of the item
+                    </div>
+                    <div class="frame-parent9">
+                      <div class="wrapper1">
+                        <div class="div7">
+                          <span>₹ </span>
+                          <span class="span5">80.00</span>
+                        </div>
+                      </div>
+                      <div class="frame-parent10">
+                        <div class="fi-sr-star-wrapper1">
+                          <img
+                            class="fi-sr-star-icon14"
+                            alt=""
+                            src="fi-sr-star.png"
+                          />
+                        </div>
+                        <div class="div8">4.5</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dishes">
+              <div class="dish">
+                <div class="dish-details">
+                  <div class="dish-details-child"></div>
+                  <div class="heart-icon">
+                    <div class="heart-icon-child"></div>
+                    <img
+                      class="fi-br-heart-icon"
+                      loading="lazy"
+                      alt=""
+                      src="fi-br-heart.png"
+                    />
+
+                    <img
+                      class="vegetable-salad-icon"
+                      loading="lazy"
+                      alt=""
+                      src="pav bhaji.png"
+                    />
+                  </div>
+                  <div class="info">
+                    <div class="title">
+                      <div class="pav-bhaji">Pav Bhaji</div>
+                      <div class="description-of-the-item-parent2">
+                        <div class="description-of-the4">
+                          Description of the item
+                        </div>
+                        <div class="price-and-rating">
+                          <div class="value-and-stars">
+                            <div class="div9">
+                              <span>₹ </span>
+                              <span class="span6">48.00</span>
+                            </div>
+                            <div class="stars-wrapper">
+                              <div class="stars">
+                                <img
+                                  class="fi-sr-star-icon15"
+                                  alt=""
+                                  src="fi-sr-star-1.png"
+                                />
+
+                                <div class="empty-space">4.6</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dish-card">
+                <div class="dish-card-child"></div>
+                <div class="vegetable-salad-wrapper">
+                  <img
+                    class="vegetable-salad-icon1"
+                    alt=""
+                    src="vada pav.png"
+                  />
+                </div>
+                <div class="dish-variation">
+                  <div class="vada-pav">Vada Pav</div>
+                  <div class="description-and-price">
+                    <div class="description-of-the5">
+                      Description of the item
+                    </div>
+                    <div class="value-and-rating">
+                      <div class="wrapper2">
+                        <div class="div10">
+                          <span>₹ </span>
+                          <span class="span7">65.00</span>
+                        </div>
+                      </div>
+                      <div class="rating-stars-parent">
+                        <div class="rating-stars">
+                          <img
+                            class="fi-sr-star-icon16"
+                            alt=""
+                            src="fi-sr-star.png"
+                          />
+                        </div>
+                        <div class="div11">4.6</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dish-card1">
+                <div class="dish-card-item"></div>
+                <div class="vegetable-salad-container">
+                  <img
+                    class="vegetable-salad-icon2"
+                    alt=""
+                    src="Biryani.png"
+                  />
+                </div>
+                <div class="vegetable-salad-parent">
+                  <div class="vegetable-salad">Vegetable Biryani</div>
+                  <div class="description-of-the-item-parent3">
+                    <div class="description-of-the6">
+                      Description of the item
+                    </div>
+                    <div class="frame-parent11">
+                      <div class="wrapper3">
+                        <div class="div12">
+                          <span>₹ </span>
+                          <span class="span8">100.00</span>
+                        </div>
+                      </div>
+                      <div class="frame-parent12">
+                        <div class="fi-sr-star-wrapper2">
+                          <img
+                            class="fi-sr-star-icon17"
+                            alt=""
+                            src="fi-sr-star.png"
+                          />
+                        </div>
+                        <div class="div13">4.6</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dish-card2">
+                <div class="dish-card-inner"></div>
+                <div class="vegetable-salad-frame">
+                  <img
+                    class="vegetable-salad-icon3"
+                    alt=""
+                    src="Dosa.png"
+                  />
+                </div>
+                <div class="vegetable-salad-group">
+                  <div class="vegetable-salad1">Masala Dosa</div>
+                  <div class="description-of-the-item-parent4">
+                    <div class="description-of-the7">
+                      Description of the item
+                    </div>
+                    <div class="frame-parent13">
+                      <div class="wrapper4">
+                        <div class="div14">
+                          <span>₹ </span>
+                          <span class="span9">109.00</span>
+                        </div>
+                      </div>
+                      <div class="frame-parent14">
+                        <div class="fi-sr-star-wrapper3">
+                          <img
+                            class="fi-sr-star-icon18"
+                            alt=""
+                            src="fi-sr-star-1.png"
+                          />
+                        </div>
+                        <div class="div15">4.6</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resturent-website-child"></div>
+      <img class="fi-br-clock-icon" alt="" src="./public/fibrclock.svg" />
+
+      <img class="fi-br-comment-icon" alt="" src="./public/fibrcomment.svg" />
+
+      <img
+        class="fi-br-shopping-bag-icon"
+        alt=""
+        src="./public/fibrshoppingbag.svg"
+      />
+
+      <div class="testimonials-content-wrapper">
+        <div class="testimonials-content">
+          <div class="testimonials-title">
+            <b class="testimonials">Testimonials</b>
+            <div class="title-description">
+              <div class="description">
+                <h1 class="what-our-customers">
+                  What Our Customers Say About Us
+                </h1>
+                <blockquote class="i-had-the">
+                  “I had the pleasure of dining at Foodi last night, and I'm
+                  still raving about the experience! The attention to detail in
+                  presentation and service was impeccable”
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="feedback">
+            <div class="feedback-content">
+              <div class="image-placeholder">
+                <img
+                  class="mask-group-icon2"
+                  alt=""
+                  src="Mask group (2).png"
+                />
+
+                <div class="wrapper-mask-group">
+                  <img
+                    class="mask-group-icon3"
+                    alt=""
+                    src="Mask group (3).png"
+                  />
+                </div>
+                <div class="wrapper-mask-group1">
+                  <img
+                    class="mask-group-icon4"
+                    alt=""
+                    src="Mask group (1).png"
+                  />
+                </div>
+              </div>
+              <div class="review">
+                <div class="customer-feedback">Customer Feedback</div>
+                <div class="rating-and-count">
+                  <div class="fi-sr-star-wrapper4">
+                    <img
+                      class="fi-sr-star-icon19"
+                      alt=""
+                      src="fi-sr-star-1.png"
+                    />
+                  </div>
+                  <div class="div16">4.9</div>
+                  <div class="k-reviews">(18.6k Reviews)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="story-and-services">
+        <div class="story-content">
+          <div class="story-title">
+            <b class="our-story">Our Story & Services</b>
+          </div>
+          <h1 class="our-culinary-journey">
+            Our Culinary Journey And Services
+          </h1>
+          <div class="journey-description">
+            <div class="rooted-in-passion">
+              Rooted in passion, we curate unforgettable dining experiences and
+              offer exceptional services, blending culinary artistry with warm
+              hospitality.
+            </div>
+            <button class="explore-button">
+              <div class="explore-button-child"></div>
+              <div class="explore">Explore</div>
+            </button>
+          </div>
+          <div class="services1">
+            <div class="services-content">
+              <div class="service-cards">
+                <div class="card">
+                  <div class="card-child"></div>
+                  <div class="fi-rr-salad-wrapper">
+                    <img
+                      class="fi-rr-salad-icon"
+                      loading="lazy"
+                      alt=""
+                      src="fi-rr-salad.png"
+                    />
+                  </div>
+                  <div class="name-and-description">
+                    <div class="service-name">
+                      <b class="catering">Catering</b>
+                    </div>
+                    <div class="delight-your-guests">
+                      Delight your guests with our flavors and presentation
+                    </div>
+                  </div>
+                </div>
+                <div class="card-details">
+                  <div class="card-details-child"></div>
+                  <div class="second-card">
+                    <img
+                      class="fi-rr-time-fast-icon"
+                      loading="lazy"
+                      alt=""
+                      src="fi-rr-time-fast.png"
+                    />
+                  </div>
+                  <div class="second-card-details">
+                    <div class="card-name">
+                      <b class="fast-delivery">Fast delivery</b>
+                    </div>
+                    <div class="we-deliver-your">
+                      We deliver your order promptly to your door
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-cards1">
+                <div class="rectangle-parent5">
+                  <div class="frame-child8"></div>
+                  <div class="fi-rr-shopping-cart-check-wrapper">
+                    <img
+                      class="fi-rr-shopping-cart-check-icon"
+                      loading="lazy"
+                      alt=""
+                      src="fi-rr-shopping-cart-check.png"
+                    />
+                  </div>
+                  <div class="frame-parent15">
+                    <div class="online-ordering-wrapper">
+                      <b class="online-ordering">Online Ordering</b>
+                    </div>
+                    <div class="explore-menu">
+                      Explore menu & order with ease using our Online Ordering
+                    </div>
+                  </div>
+                </div>
+                <div class="rectangle-parent6">
+                  <div class="frame-child9"></div>
+                  <div class="fi-rr-gift-wrapper">
+                    <img
+                      class="fi-rr-gift-icon"
+                      loading="lazy"
+                      alt=""
+                      src="fi-rr-gift.png"
+                    />
+                  </div>
+                  <div class="frame-parent16">
+                    <div class="gift-cards-wrapper">
+                      <b class="gift-cards">Gift Cards</b>
+                    </div>
+                    <div class="give-the-gift">
+                      Give the gift of exceptional dining with Foodi Gift Cards
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-content">
+          <div class="brand-info">
+            <div class="brand-details">
+              <h1 class="dhaba1">Dhaba</h1>
+              <div class="savor-the-artistry">
+                Savor the artistry where every dish is a culinary masterpiece
+              </div>
+            </div>
+            <div class="navigation-menu">
+              <div class="menu-options1">
+                <div class="main-menu">Main Menu</div>
+                <div class="links">
+                  <div class="home1">Home</div>
+                  <div class="offers1">Offers</div>
+                  <div class="menus">Menus</div>
+                  <div class="reservation">Reservation</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links">
+            <div class="frame-parent17">
+              <div class="useful-links-parent">
+                <div class="useful-links">Useful links</div>
+                <div class="about-us-parent">
+                  <div class="about-us">About us</div>
+                  <div class="events">Events</div>
+                  <div class="blogs">Blogs</div>
+                  <div class="faq">FAQ</div>
+                </div>
+              </div>
+              <div class="contact1">
+                <div class="contact-details">
+                  <div class="contact-us">Contact Us</div>
+                  <div class="contact-info">
+                    <div class="exampleemailcom">kayasthayush123@gmail.com</div>
+                    <div class="age">+91 9838636387</div>
+                    <div class="social-media">Instagram - iamayuu01</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chatbot-container">
+      <iframe
+          allow="microphone;"
+          width="400"
+          height="500"
+          src="https://console.dialogflow.com/api-client/demo/embedded/ab1a23ee-9d5e-4f1f-b804-97fede484687">
+      </iframe>
+  </div>
+  </body>
+</html>
